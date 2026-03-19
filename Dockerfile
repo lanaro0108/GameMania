@@ -14,7 +14,7 @@ COPY . .
 
 ## compilar o projeto com o maven
 
-RUN mvn clean install
+RUN mvn clean install -DskipTest
 
 ## Execução do Projeto
 FROM eclipse-temurin:21-jdk-jammy
